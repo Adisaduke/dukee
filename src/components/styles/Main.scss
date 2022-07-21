@@ -83,11 +83,27 @@
         text-transform: uppercase;
         font-weight: bolder;
     }
+
+    a{
+        padding: 15px 40px;
+        margin-top: 2rem;
+        margin-right: 1rem;
+        background: linear-gradient(25deg,rgba(1, 60, 210, 0.753),rgb(255, 72, 6));
+        color: #fff;
+        border: 1px solid #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
 }
 
 .main__container.active {
     background: red;
 }
+
+
+
 
 
 
@@ -109,7 +125,11 @@
     }
 
 
-    .buttons button {
+    .buttons button  {
+        padding: 8px 20px;
+    }
+
+    .buttons a{
         padding: 8px 20px;
     }
     .icons {

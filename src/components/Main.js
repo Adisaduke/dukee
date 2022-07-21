@@ -1,27 +1,22 @@
-import { Facebook, Instagram, LinkedIn, MenuBook, Pinterest, SettingsPowerRounded, Twitter } from '@material-ui/icons'
+import { Facebook, Instagram, LinkedIn, MenuBook, Pinterest, SettingsPowerRounded, Twitter, GitHub } from '@material-ui/icons'
 import React, { useState } from 'react'
 import './styles/Main.scss'
 import man from './assets/man.png'
 import { Routes, Route, useNavigate } from 'react-router-dom'
 import Works from './Works'
 import Contact from './Contact'
-import FileSaver from 'file-saver'
 import logos from './assets/logos.png'
+
 
 
 const Main = () => {
 
     const navigate = useNavigate();
 
-    const saveFile = () =>{
-        FileSaver.saveAs(
-            process.env.REACT_APP_CLIENT_URL + "./assets/logos.png", 'logos.png'
-        )
-    }
 
-    const navigateToWorks = () =>{
-        navigate('/works');
-    }
+    // const navigateToWorks = () =>{
+    //     navigate('/works');
+    // }
 
     const navigateToCOntact = () =>{
         navigate('/contact');
@@ -41,17 +36,16 @@ const Main = () => {
                             <p>Graphics Design</p>
 
                             <div className="icons">
-                                <Twitter className='icon'/>
-                                <Instagram className='icon'/>
-                                <Facebook className='icon'/>
-                                <LinkedIn className='icon'/>
-                                <Pinterest className='icon'/>
+                                <a href="https://www.twitter.com" target="_blank" className='social_accounts'><Twitter className='icon'/></a>
+                                <a href="https://github.com/Adisaduke/dukee" target="_blank" className='social_accounts'><GitHub className='icon'/></a>
+                                <a href="https://www.linkedin.com" target="_blank" className='social_accounts'><LinkedIn className='icon'/></a>
+                                <a href="https://www.instagram.com" target="_blank" className='social_accounts'><Instagram className='icon'/></a>
                             </div>
 
 
                     <div className="buttons">
-                        <button  onClick={saveFile}>See My Work</button>
-                        <button onClick={navigateToCOntact}>Hire Me</button>
+                        <a href={logos} download="logos.png">Download CV</a>
+                        <button onClick={navigateToCOntact}>Hire Me Now</button>
 
                         <Routes>
                             <Route path='/works' element={<Works/>}/>

@@ -21,32 +21,33 @@ const Works = () => {
 
                 <div className="cards">
                     <img src={react} alt="" />
-                    <button>See Work</button>
+                    <a href="https://www.gmail.com" target="_blank" className='social_accounts'><button>See Work</button></a>
+                    
                 </div>
 
                 <div className="cards">
                     <img src={ui} alt="" />
-                    <button>See Work</button>
+                    <a href="https://www.gmail.com" target="_blank" className='social_accounts'><button>See Work</button></a>
                 </div>
 
                 <div className="cards">
                    <img src={food} alt="" />
-                    <button>See Work</button>
+                   <a href="https://www.gmail.com" target="_blank" className='social_accounts'><button>See Work</button></a>
                 </div>
 
                 <div className="cards">
                    <img src={drumkiit} alt="" />
-                    <button>See Work</button>
+                   <a href="https://www.gmail.com" target="_blank" className='social_accounts'><button>See Work</button></a>
                 </div>
 
                 <div className="cards">
                    <img src={keeperr} alt="" />
-                    <button>See Work</button>
+                   <a href="https://www.gmail.com" target="_blank" className='social_accounts'><button>See Work</button></a>
                 </div>
 
                 <div className="cards">
                    <img src={Expenses} alt="" />
-                    <button>See Work</button>
+                   <a href="https://www.gmail.com" target="_blank" className='social_accounts'><button>See Work</button></a>
                 </div>
 
             </div>
