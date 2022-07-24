@@ -8,6 +8,11 @@ const Header = () => {
 
     const [active,setActive] = useState(false);
 
+    
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header")
+    header.classList.toggle("active", window.scrollY > 180)
+  })
 
     const showMenu = () => {
             setActive(!active)
