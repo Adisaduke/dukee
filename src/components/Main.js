@@ -37,7 +37,7 @@ const Main = () => {
 
                             <div className="icons">
                                 <a href="https://www.twitter.com/uncle_real1" target="_blank" className='social_accounts'><Twitter className='icon'/></a>
-                                <a href="https://github.com/Adisaduke/dukee" target="_blank" className='social_accounts'><GitHub className='icon'/></a>
+                                <a href="https://github.com/Adisaduke/" target="_blank" className='social_accounts'><GitHub className='icon'/></a>
                                 <a href="https://www.linkedin.com/in/adisa-rasak-51189b201/" target="_blank" className='social_accounts'><LinkedIn className='icon'/></a>
                             </div>
 
