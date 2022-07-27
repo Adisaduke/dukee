@@ -38,7 +38,7 @@ const Main = () => {
 
                     <div className="buttons">
                         <a href={AdisaRasakResume} download="AdisaRasakResume">Download CV</a>
-                        <a href="mailto:max.mustermann@example.com?body=My custom mail body">Hire Me Now</a>
+                        <a href="mailto:adisarasak.official@gmail.com.com? body=Good day Rasak">Hire Me Now</a>
                     
 
                         <Routes>
