@@ -15,13 +15,6 @@ const Main = () => {
     const navigate = useNavigate();
 
 
-    // const navigateToWorks = () =>{
-    //     navigate('/works');
-    // }
-
-    const navigateToCOntact = () =>{
-        navigate('/contact');
-    }
 
     return (
         <div className='main'>
@@ -45,7 +38,8 @@ const Main = () => {
 
                     <div className="buttons">
                         <a href={AdisaRasakResume} download="AdisaRasakResume">Download CV</a>
-                        <button onClick={navigateToCOntact}>Hire Me Now</button>
+                        <a href="mailto:max.mustermann@example.com?body=My custom mail body">Hire Me Now</a>
+                    
 
                         <Routes>
                             <Route path='/works' element={<Works/>}/>
