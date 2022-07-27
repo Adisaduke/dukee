@@ -2,10 +2,11 @@ import { Facebook, Instagram, LinkedIn, MenuBook, Pinterest, SettingsPowerRounde
 import React, { useState } from 'react'
 import './styles/Main.scss'
 import man from './assets/man.png'
+import AdisaRasakResume from './assets/AdisaRasakResume.pdf'
 import { Routes, Route, useNavigate } from 'react-router-dom'
 import Works from './Works'
 import Contact from './Contact'
-import logos from './assets/logos.png'
+
 
 
 
@@ -43,7 +44,7 @@ const Main = () => {
 
 
                     <div className="buttons">
-                        <a href={logos} download="logos.png">Download CV</a>
+                        <a href={AdisaRasakResume} download="AdisaRasakResume">Download CV</a>
                         <button onClick={navigateToCOntact}>Hire Me Now</button>
 
                         <Routes>

@@ -15,7 +15,6 @@ ReactDOM.render(
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/about' element={<Section/>}/>
           <Route path='/works' element={<Works/>}/>
-
         </Routes>
     </Router>,
   document.getElementById('root')
